@@ -1,0 +1,60 @@
+/* Estils generals del document */
+
+body {
+    font-family: serif;
+    font-size: 1.2em;
+    background-color: #fddaef;
+}
+
+/* Paràgrafs generals */
+
+p {
+    line-height: 125%;
+}
+
+/* Títol principal */
+
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+/* Títols secundaris */
+
+h2,
+h3 {
+    color: #cc22ff;
+    font-family: Arial, sans-serif;
+}
+
+/* Caixa del codi Python */
+
+pre {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Paràgraf amb ID especial */
+
+#especial::first-letter {
+    font-weight: bold;
+    font-size: 300%;
+}
+
+/* Primera classe */
+
+.destacat {
+    background-color: #ffffff;
+    padding: 8px;
+    border-left: 4px solid #cc22ff;
+    margin: 15px 0;
+}
+
+/* Segona classe */
+
+.normal {
+    margin: 12px 0;
+    padding: 5px;
+    text-align: left;
+    font-style: normal;
+}
